@@ -72,6 +72,11 @@ input{
 	cursor: pointer;
 }
 
+.button_div{
+	display: flex;
+	gap: 20px;
+}
+
 .box2{
 	min-width: 50vw;
 	min-height: 20vh;
@@ -79,4 +84,12 @@ input{
 	color: white;
 	padding: 20px 20px;
 	overflow-y: auto;
+}
+
+
+@media screen and (max-width:500px){
+	.input_box{
+		flex-direction: column;
+		gap: 10px;
+	}
 }
