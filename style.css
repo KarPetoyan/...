@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.box{
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(85, 85, 85);
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.input_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+input{
+	outline-style: none;
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+	color: white;
+	padding-left: 10px;
+}
+
+.text_box, .number_box{
+	width: 150px;
+	height: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text, .number{
+	width: 100%;
+	height: 100%;
+}
+
+.text_label, .number_label{
+	position: absolute;
+	color: white;
+	font-size: 11px;
+	width: auto;
+	left: 20px;
+	top: 9px;
+	background-color: rgb(85, 85, 85);
+	padding: 0 5px;
+	transition: .3s;
+}
+
+.label-js{
+	left: 7px;
+	top: -5px;
+}
+
+.enter, .clear{
+	padding: 5px 10px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+.box2{
+	min-width: 50vw;
+	min-height: 20vh;
+	border: 1px solid white;
+	color: white;
+	padding: 20px 20px;
+	overflow-y: auto;
+}
